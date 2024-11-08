@@ -1,0 +1,79 @@
+/* Import a stylish font from Google Fonts for a Starbucks-like look */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Center the login form on the page */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e3932; /* Starbucks dark green */
+  font-family: 'Poppins', sans-serif; /* Stylish font */
+}
+
+/* Login card styling */
+.login-card {
+  width: 22rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #00754a; /* Starbucks green */
+}
+
+/* Form group styles */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #ffffff; /* White text color */
+}
+
+input {
+  padding: 0.8rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #00754a; /* Starbucks green */
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #00593b; /* Darker green for hover */
+}
+
+/* Footer links */
+.login-footer {
+  margin-top: 1rem;
+}
+
+.login-footer a {
+  color: #00754a; /* Starbucks green */
+  margin-left: 0.3rem;
+  transition: color 0.2s;
+}
+
+.login-footer a:hover {
+  color: #00593b; /* Darker green for hover */
+}

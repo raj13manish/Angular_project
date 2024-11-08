@@ -1,0 +1,53 @@
+/* Import a stylish font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  background: linear-gradient(135deg, #000428, #004e92); /* Black to blue gradient background */
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  border-radius: 10rem 0 0 10rem;
+  border: none;
+  height: 3rem;
+  width: 20rem;
+  background-color: #f1f1f1;
+  padding: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+input:focus {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Slight shadow on focus */
+}
+
+div button {
+  color: grey;
+  height: 3rem;
+  width: 5rem;
+  font-size: 1rem;
+  border-radius: 0 10rem 10rem 0;
+  border: none;
+  background-color: #021b26;
+  color: white;
+  opacity: 0.9;
+  outline: none;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+div button:hover {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.05); /* Slight scale on hover */
+}
